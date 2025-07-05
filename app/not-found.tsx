@@ -11,8 +11,8 @@ export default function NotFound() {
         </p>
         <p>Oops! The page you&apos;re looking for doesn&apos;t exist.</p>
       </div>
-      <Link href="/" className={buttonVariants({})}>
-        Back to homepage
+      <Link href="/docs/overview/introduction" className={buttonVariants({})}>
+        Go to documentation
       </Link>
     </div>
   );

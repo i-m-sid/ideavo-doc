@@ -2,7 +2,7 @@ import DocsBreadcrumb from "@/components/docs-breadcrumb";
 import Pagination from "@/components/pagination";
 import Toc from "@/components/toc";
 import { page_routes } from "@/lib/routes-config";
-import { notFound } from "next/navigation";
+import { redirect } from "next/navigation";
 import { getCompiledDocsForSlug, getDocFrontmatter } from "@/lib/markdown";
 import { Typography } from "@/components/typography";
 
@@ -17,7 +17,9 @@ export default async function DocsPage(props: PageProps) {
   const pathName = slug.join("/");
   const res = await getCompiledDocsForSlug(pathName);
 
-  if (!res) notFound();
+  if (!res) {
+    redirect("/docs/overview/introduction");
+  }
   return (
     <div className="flex items-start gap-10">
       <div className="flex-[4.5] py-10 mx-auto">

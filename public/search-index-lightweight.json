@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Introduction",
+    "href": "/docs/overview/introduction"
+  },
+  {
+    "title": "Why Ideavo",
+    "href": "/docs/overview/why-ideavo"
+  },
+  {
+    "title": "Get Started",
+    "href": "/docs/build-with-ideavo/get-started"
+  },
+  {
+    "title": "AI Assistant",
+    "href": "/docs/build-with-ideavo/ai-assistant"
+  },
+  {
+    "title": "Workbench",
+    "href": "/docs/build-with-ideavo/workbench"
+  },
+  {
+    "title": "GitHub",
+    "href": "/docs/build-with-ideavo/github"
+  },
+  {
+    "title": "Deployment",
+    "href": "/docs/build-with-ideavo/deployment"
+  },
+  {
+    "title": "Get Started",
+    "href": "/docs/validate-with-ideavo/get-started"
+  },
+  {
+    "title": "Understanding Scores",
+    "href": "/docs/validate-with-ideavo/understanding-scores"
+  },
+  {
+    "title": "Plans",
+    "href": "/docs/pricing/plans"
+  },
+  {
+    "title": "Agent+",
+    "href": "/docs/pricing/agent-plus"
+  }
+]

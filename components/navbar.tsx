@@ -1,12 +1,13 @@
 import { ModeToggle } from "@/components/theme-toggle";
-import { GithubIcon, TwitterIcon, CommandIcon } from "lucide-react";
+import { FaRedditAlien } from "react-icons/fa";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import Anchor from "./anchor";
 import { SheetLeftbar } from "./leftbar";
 import { page_routes } from "@/lib/routes-config";
 import { SheetClose } from "@/components/ui/sheet";
-import AlgoliaSearch from "./algolia-search";
+import LocalSearch from "./local-search";
+import Image from "next/image";
 
 export const NAVLINKS = [
   {
@@ -15,11 +16,6 @@ export const NAVLINKS = [
   },
 ];
 
-const algolia_props = {
-  appId: process.env.ALGOLIA_APP_ID!,
-  indexName: process.env.ALGOLIA_INDEX!,
-  apiKey: process.env.ALGOLIA_SEARCH_API_KEY!,
-};
 
 export function Navbar() {
   return (
@@ -38,26 +34,19 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center sm:justify-normal justify-between sm:gap-3 ml-1 sm:w-fit w-[90%]">
-          <AlgoliaSearch {...algolia_props} />
+          <LocalSearch />
           <div className="flex items-center justify-between sm:gap-2">
             <div className="flex ml-4 sm:ml-0">
               <Link
-                href="https://github.com/nisabmohd/NexDocs"
+                href="https://www.reddit.com/r/ideavo/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={buttonVariants({
                   variant: "ghost",
                   size: "icon",
                 })}
               >
-                <GithubIcon className="h-[1.1rem] w-[1.1rem]" />
-              </Link>
-              <Link
-                href="#"
-                className={buttonVariants({
-                  variant: "ghost",
-                  size: "icon",
-                })}
-              >
-                <TwitterIcon className="h-[1.1rem] w-[1.1rem]" />
+                <FaRedditAlien className="h-[1.1rem] w-[1.1rem]" />
               </Link>
               <ModeToggle />
             </div>
@@ -70,9 +59,9 @@ export function Navbar() {
 
 export function Logo() {
   return (
-    <Link href="/docs/getting-started/introduction" className="flex items-center gap-2.5">
-      <CommandIcon className="w-6 h-6 text-muted-foreground" strokeWidth={2} />
-      <h2 className="text-md font-bold font-code">AriaDocs</h2>
+    <Link href="https://ideavo.ai" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5">
+      <Image src="/ideavo-logo.png" alt="Ideavo" width={24} height={24} />
+      <h2 className="text-md font-bold font-code">Ideavo</h2>
     </Link>
   );
 }

@@ -1,0 +1,550 @@
+[
+  {
+    "title": "Introduction",
+    "description": "",
+    "href": "/docs/overview/introduction",
+    "content": "Introduction Ideavo is an AI agent that can do idea validation and convert ideas to production-ready applications. What is Ideavo? Ideavo operates in two modes: Build Mode: Converts your idea into a fully functional application using AI agents that generate production-ready code. Validate Mode: Analyzes your idea with comprehensive market research and scoring across 7 business factors. !Ideavo Platform Overview The platform combines AI-powered development with intelligent idea validation, allowing you to both validate market potential and build applications in a single workflow.",
+    "headings": [
+      {
+        "level": 2,
+        "text": "What is Ideavo?",
+        "anchor": "what-is-ideavo"
+      }
+    ]
+  },
+  {
+    "title": "Why Ideavo",
+    "description": "",
+    "href": "/docs/overview/why-ideavo",
+    "content": "Why Ideavo? Comparison with Competitors | Feature | Ideavo | Lovable.dev | Bolt.new | |---------|---------|-------------|----------| | Performance | WebContainer-powered, production-ready code | In-browser development | StackBlitz WebContainers | | Pricing | $25/month (200 prompts) | ~$20/month (limited) | $20/month (10M tokens) | | Platform Support | Next.js, React Native Expo | React, Tailwind, Vite | React, Vue, Svelte, Next.js | | Agentic Capabilities | Multi-agent system with specialized agents | Single AI model | Single AI model | Key Differentiators Dual-Mode Intelligence Unlike competitors, Ideavo combines idea validation with application building in a single platform. Production-Ready Focus Generates deployable applications with clean, maintainable code following industry best practices. Advanced Agentic System Uses specialized AI agents for validation, architecture, code generation, testing, and deployment. Human-AI Collaboration Agent+ plan provides human engineer review and quality assurance alongside AI development.",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Comparison with Competitors",
+        "anchor": "comparison-with-competitors"
+      },
+      {
+        "level": 2,
+        "text": "Key Differentiators",
+        "anchor": "key-differentiators"
+      },
+      {
+        "level": 3,
+        "text": "Dual-Mode Intelligence",
+        "anchor": "dual-mode-intelligence"
+      },
+      {
+        "level": 3,
+        "text": "Production-Ready Focus",
+        "anchor": "production-ready-focus"
+      },
+      {
+        "level": 3,
+        "text": "Advanced Agentic System",
+        "anchor": "advanced-agentic-system"
+      },
+      {
+        "level": 3,
+        "text": "Human-AI Collaboration",
+        "anchor": "human-ai-collaboration"
+      }
+    ]
+  },
+  {
+    "title": "Get Started",
+    "description": "",
+    "href": "/docs/build-with-ideavo/get-started",
+    "content": "Get Started Create Account 1. Visit ideavo.com and click \"Sign Up\" 2. Enter your email and create a password 3. Verify your email address 4. You'll receive 5 daily prompts (30 per month) on the free plan Input Your Idea Use the idea form on the homepage to describe your application: !Idea Form Writing Effective Prompts For Web Applications: - \"Build a task management app with user authentication and real-time collaboration\" - \"Create an e-commerce platform with product catalog and payment integration\" For Mobile Applications: - \"Build a mobile fitness tracking app with workout logging and progress charts\" - \"Create a social media app for sharing photos with friends\" Set Mode Choose your development mode: Build Mode: Creates a complete, deployable application - Select this when you want to build your idea into a working app - Perfect for MVPs, prototypes, and production applications Validate Mode: Analyzes your idea's market potential - Select this when you want to research your idea first - Provides comprehensive market analysis and scoring Prompt Tips Be Specific About Platform - Web App: \"Build a Next.js web application for...\" - Mobile App: \"Build a React Native Expo mobile app for...\" Include Key Features - Authentication requirements - Database needs - Third-party integrations - UI/UX preferences - Target audience Example Prompts Build a Next.js project management tool with: - User authentication and team collaboration - Kanban boards and task assignments - Real-time notifications - Integration with GitHub and Slack - Modern, responsive design Once you submit your idea, Ideavo's AI agents will begin working on your project immediately.",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Create Account",
+        "anchor": "create-account"
+      },
+      {
+        "level": 2,
+        "text": "Input Your Idea",
+        "anchor": "input-your-idea"
+      },
+      {
+        "level": 3,
+        "text": "Writing Effective Prompts",
+        "anchor": "writing-effective-prompts"
+      },
+      {
+        "level": 2,
+        "text": "Set Mode",
+        "anchor": "set-mode"
+      },
+      {
+        "level": 2,
+        "text": "Prompt Tips",
+        "anchor": "prompt-tips"
+      },
+      {
+        "level": 3,
+        "text": "Be Specific About Platform",
+        "anchor": "be-specific-about-platform"
+      },
+      {
+        "level": 3,
+        "text": "Include Key Features",
+        "anchor": "include-key-features"
+      },
+      {
+        "level": 3,
+        "text": "Example Prompts",
+        "anchor": "example-prompts"
+      }
+    ]
+  },
+  {
+    "title": "AI Assistant",
+    "description": "",
+    "href": "/docs/build-with-ideavo/ai-assistant",
+    "content": "AI Assistant Two Modes Plan Mode - Analyzes your requirements and creates a development plan - Breaks down complex features into manageable tasks - Provides project structure and technical recommendations - Does not execute code or make changes Agent Mode - Actively builds your application - Writes code, creates files, and implements features - Executes commands and manages the development environment - Provides real-time progress updates Conversation Features Rewind to Previous Message You can rewind the conversation to any previous message: 1. Click on any message in the chat history 2. Select \"Rewind to here\" from the context menu 3. The conversation will reset to that point 4. Continue development from that state This feature is useful when: - You want to explore different implementation approaches - The AI made a mistake and you want to start from a previous working state - You need to change direction in your project Context Awareness The AI assistant maintains context throughout your conversation: - Remembers your project requirements and preferences - Tracks changes made to your codebase - Understands the current state of your application - Provides consistent responses based on your project history Best Practices Communicating with the AI - Be specific about what you want to build or change - Ask for explanations when you don't understand something - Request code reviews and optimization suggestions - Use the rewind feature to explore alternatives Getting Better Results - Start with Plan mode for complex features - Switch to Agent mode when ready to implement - Provide feedback on generated code - Ask for tests and documentation when needed",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Two Modes",
+        "anchor": "two-modes"
+      },
+      {
+        "level": 3,
+        "text": "Plan Mode",
+        "anchor": "plan-mode"
+      },
+      {
+        "level": 3,
+        "text": "Agent Mode",
+        "anchor": "agent-mode"
+      },
+      {
+        "level": 2,
+        "text": "Conversation Features",
+        "anchor": "conversation-features"
+      },
+      {
+        "level": 3,
+        "text": "Rewind to Previous Message",
+        "anchor": "rewind-to-previous-message"
+      },
+      {
+        "level": 3,
+        "text": "Context Awareness",
+        "anchor": "context-awareness"
+      },
+      {
+        "level": 2,
+        "text": "Best Practices",
+        "anchor": "best-practices"
+      },
+      {
+        "level": 3,
+        "text": "Communicating with the AI",
+        "anchor": "communicating-with-the-ai"
+      },
+      {
+        "level": 3,
+        "text": "Getting Better Results",
+        "anchor": "getting-better-results"
+      }
+    ]
+  },
+  {
+    "title": "Workbench",
+    "description": "",
+    "href": "/docs/build-with-ideavo/workbench",
+    "content": "Workbench The Ideavo Workbench is your complete development environment in the browser. !Workbench File Tree - Browse and navigate your project structure - Create, rename, and delete files and folders - View file modifications in real-time - Expand and collapse directories Code Editor - Full-featured code editor with syntax highlighting - IntelliSense and auto-completion - Real-time error detection and suggestions - Support for Next.js and React Native Expo projects Editor Features - Syntax Highlighting: For JavaScript, TypeScript, CSS, and more - Code Folding: Collapse code blocks for better navigation - Find & Replace: Search and replace text across files - Multi-cursor Editing: Edit multiple lines simultaneously Preview - Live preview of your application - Automatic refresh when code changes - Mobile-responsive preview for different screen sizes Preview Features - Hot Reload: See changes instantly without manual refresh - Device Simulation: Test different screen sizes and orientations - Console Access: View browser console logs and errors Terminal - Built-in terminal for running commands - Package management (npm, yarn, pnpm) - Build and development scripts - Environment variable management Terminal Commands - npm install - Install dependencies - npm run dev - Start development server - npm run build - Build for production - npm run test - Run tests File Editing Restrictions Important: You can only edit files when your GitHub account is connected. Without GitHub Connection - Read-only mode: View files and folder structure - No file editing: Cannot modify, create, or delete files - Preview only: Can view the live preview of your application With GitHub Connection - Full editing capabilities: Create, modify, and delete files - Real-time sync: Changes are automatically saved - Version control: All changes are tracked in git - Collaboration: Share your repository with team members",
+    "headings": [
+      {
+        "level": 2,
+        "text": "File Tree",
+        "anchor": "file-tree"
+      },
+      {
+        "level": 2,
+        "text": "Code Editor",
+        "anchor": "code-editor"
+      },
+      {
+        "level": 3,
+        "text": "Editor Features",
+        "anchor": "editor-features"
+      },
+      {
+        "level": 2,
+        "text": "Preview",
+        "anchor": "preview"
+      },
+      {
+        "level": 3,
+        "text": "Preview Features",
+        "anchor": "preview-features"
+      },
+      {
+        "level": 2,
+        "text": "Terminal",
+        "anchor": "terminal"
+      },
+      {
+        "level": 3,
+        "text": "Terminal Commands",
+        "anchor": "terminal-commands"
+      },
+      {
+        "level": 2,
+        "text": "File Editing Restrictions",
+        "anchor": "file-editing-restrictions"
+      },
+      {
+        "level": 3,
+        "text": "Without GitHub Connection",
+        "anchor": "without-github-connection"
+      },
+      {
+        "level": 3,
+        "text": "With GitHub Connection",
+        "anchor": "with-github-connection"
+      }
+    ]
+  },
+  {
+    "title": "GitHub",
+    "description": "",
+    "href": "/docs/build-with-ideavo/github",
+    "content": "GitHub Integration Connect GitHub Account Using Personal Access Token (PAT) 1. Go to GitHub Settings → Developer settings → Personal access tokens 2. Generate a new token with the following permissions: - repo - Full control of private repositories - workflow - Update GitHub Action workflows 3. Copy the generated token 4. In Ideavo, go to Settings → GitHub 5. Paste your PAT token and click \"Connect\" !GitHub Connection Token Permissions Required - repo: Access to read and write repository contents - workflow: Ability to update GitHub Actions for deployment Repository Selection Choose Repository 1. After connecting, you'll see a list of your repositories 2. Select an existing repository or create a new one 3. Choose the repository where you want to push your code !Repository Selection Repository Options - Existing Repository: Push code to an existing project - New Repository: Create a new repository for your project - Private vs Public: Choose repository visibility Automatic Code Deployment Auto-Push Feature Once GitHub is connected and a repository is selected: - Automatic Commits: Code is automatically committed after each AI response - Commit Messages: Descriptive commit messages are generated automatically - Branch Management: Code is pushed to the main branch by default - File Synchronization: All project files are kept in sync Commit Process 1. AI generates or modifies code 2. Changes are automatically staged 3. Commit message is generated based on changes 4. Code is pushed to your selected repository 5. You receive confirmation of the push Benefits - Version Control: Complete history of your project development - Backup: Your code is safely stored in GitHub - Collaboration: Share your repository with team members - Deployment: Enable automatic deployment from GitHub",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Connect GitHub Account",
+        "anchor": "connect-github-account"
+      },
+      {
+        "level": 3,
+        "text": "Using Personal Access Token (PAT)",
+        "anchor": "using-personal-access-token-pat"
+      },
+      {
+        "level": 3,
+        "text": "Token Permissions Required",
+        "anchor": "token-permissions-required"
+      },
+      {
+        "level": 2,
+        "text": "Repository Selection",
+        "anchor": "repository-selection"
+      },
+      {
+        "level": 3,
+        "text": "Choose Repository",
+        "anchor": "choose-repository"
+      },
+      {
+        "level": 3,
+        "text": "Repository Options",
+        "anchor": "repository-options"
+      },
+      {
+        "level": 2,
+        "text": "Automatic Code Deployment",
+        "anchor": "automatic-code-deployment"
+      },
+      {
+        "level": 3,
+        "text": "Auto-Push Feature",
+        "anchor": "auto-push-feature"
+      },
+      {
+        "level": 3,
+        "text": "Commit Process",
+        "anchor": "commit-process"
+      },
+      {
+        "level": 3,
+        "text": "Benefits",
+        "anchor": "benefits"
+      }
+    ]
+  },
+  {
+    "title": "Deployment",
+    "description": "",
+    "href": "/docs/build-with-ideavo/deployment",
+    "content": "Deployment One-Click Deployment Ideavo handles all deployment complexity for you. Simply click \"Deploy\" and your application goes live. Deployment Process Automatic Deployment 1. Build Process: Ideavo automatically builds your application 2. Optimization: Code is optimized for production 3. Platform Selection: Deployment platform is chosen automatically 4. Live URL: You receive a live URL for your application Redeployment Update Your Deployment When you make changes to your application: 1. Click \"Redeploy\" in the deployment section 2. Ideavo will rebuild your application with the latest changes 3. Your live URL will be updated automatically 4. No downtime during the update process Automatic Updates - GitHub Integration: Deployments can be triggered automatically when code is pushed - Continuous Deployment: Set up automatic redeployment on code changes - Rollback Support: Easily rollback to previous versions if needed",
+    "headings": [
+      {
+        "level": 2,
+        "text": "One-Click Deployment",
+        "anchor": "one-click-deployment"
+      },
+      {
+        "level": 2,
+        "text": "Deployment Process",
+        "anchor": "deployment-process"
+      },
+      {
+        "level": 3,
+        "text": "Automatic Deployment",
+        "anchor": "automatic-deployment"
+      },
+      {
+        "level": 2,
+        "text": "Redeployment",
+        "anchor": "redeployment"
+      },
+      {
+        "level": 3,
+        "text": "Update Your Deployment",
+        "anchor": "update-your-deployment"
+      },
+      {
+        "level": 3,
+        "text": "Automatic Updates",
+        "anchor": "automatic-updates"
+      }
+    ]
+  },
+  {
+    "title": "Get Started",
+    "description": "",
+    "href": "/docs/validate-with-ideavo/get-started",
+    "content": "Get Started Set Mode to Validate Choose Validate Mode to analyze your idea's market potential: !Mode Selection - Select Validate Mode when you want to research your idea first - Perfect for market analysis before committing to development - Provides comprehensive scoring across 7 key factors - Helps make informed decisions about your SaaS concept Submit for Analysis Once you submit your idea in Validate Mode: 1. AI Analysis Begins: Multiple agents analyze your concept 2. Market Research: Comprehensive market data collection 3. Competitive Analysis: Evaluation against existing solutions 4. Scoring Generation: 7-factor scoring with detailed breakdown 5. Results Ready: Complete validation report in 2-3 minutes Validation Tips Be Specific About Your Concept - Clearly define the problem you're solving - Mention your target audience - Include key features you're considering - Specify your business model if known Include Market Context - Geographic focus (global, US, specific regions) - Industry vertical (healthcare, finance, education) - Company size target (enterprise, SMB, individual) - Integration requirements Example Validation Prompt Validate my SaaS idea for a customer support automation platform that: - Uses AI to categorize and route support tickets - Targets mid-market SaaS companies (50-500 employees) - Integrates with existing CRM and helpdesk tools - Offers predictive analytics for support workload planning - Focuses on reducing response time and improving customer satisfaction",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Set Mode to Validate",
+        "anchor": "set-mode-to-validate"
+      },
+      {
+        "level": 2,
+        "text": "Submit for Analysis",
+        "anchor": "submit-for-analysis"
+      },
+      {
+        "level": 2,
+        "text": "Validation Tips",
+        "anchor": "validation-tips"
+      },
+      {
+        "level": 3,
+        "text": "Be Specific About Your Concept",
+        "anchor": "be-specific-about-your-concept"
+      },
+      {
+        "level": 3,
+        "text": "Include Market Context",
+        "anchor": "include-market-context"
+      },
+      {
+        "level": 3,
+        "text": "Example Validation Prompt",
+        "anchor": "example-validation-prompt"
+      }
+    ]
+  },
+  {
+    "title": "Understanding Scores",
+    "description": "",
+    "href": "/docs/validate-with-ideavo/understanding-scores",
+    "content": "Understanding Scores 7-Factor Scoring System Ideavo evaluates your idea across seven key factors with specific weightings: !Validation Scores Scoring Factors Problem Analysis (20%) - Problem severity and impact scope - Problem frequency (daily/weekly/monthly) - Solution gaps and user frustration - Pain point intensity and urgency Solution Analysis (20%) - How well solution addresses core problem - Solution completeness vs partial fixes - User adoption likelihood - Implementation ease Market Need (20%) - Current market size in USD - Growth rate percentage (YoY) - Demand trends and audience size - Willingness to pay analysis Differentiation (25%) - Uniqueness vs competitors - Competitive advantages and moats - Barriers to entry - IP/novel technology indicators Revenue Model (10%) - Pricing strategy assessment - LTV/CAC estimates - Business model benchmarks Technical Feasibility (5%) - Implementation complexity - Timeline and cost estimates - Scalability on cloud infrastructure - Technology dependencies Scalability (10%) - Growth potential - Internationalization capacity - Network effects potential - Team/infrastructure requirements Score Interpretation Score Ranges - 8-10 (Green): Excellent potential - 6-7 (Yellow): Good potential with considerations - 0-5 (Red): Significant challenges Overall Score - Weighted average of all 7 factors - Confidence level: High/Medium/Low - Benchmark comparison: Above Average/On Par/Below Average Validation Results Score Breakdown Each factor includes: - Score: 0-10 rating - Confidence: High/Medium/Low - Data Points: Supporting facts and statistics - Assumptions: Clearly stated logical assumptions - References: External sources for verification Additional Analysis - Challenges & Risks: Categorized by severity - Competition: Direct/Indirect competitors - Core Features: Essential features for success !Validation Report Using Your Scores High Scores (8-10) - Strong validation for proceeding - Consider moving to Build Mode - Focus on identified core features Medium Scores (6-7) - Moderate potential with improvements needed - Review specific factor recommendations - Consider pivoting based on insights Low Scores (0-5) - Significant challenges identified - Review fundamental assumptions - Consider major pivots or alternative approaches",
+    "headings": [
+      {
+        "level": 2,
+        "text": "7-Factor Scoring System",
+        "anchor": "7-factor-scoring-system"
+      },
+      {
+        "level": 2,
+        "text": "Scoring Factors",
+        "anchor": "scoring-factors"
+      },
+      {
+        "level": 3,
+        "text": "Problem Analysis (20%)",
+        "anchor": "problem-analysis-20"
+      },
+      {
+        "level": 3,
+        "text": "Solution Analysis (20%)",
+        "anchor": "solution-analysis-20"
+      },
+      {
+        "level": 3,
+        "text": "Market Need (20%)",
+        "anchor": "market-need-20"
+      },
+      {
+        "level": 3,
+        "text": "Differentiation (25%)",
+        "anchor": "differentiation-25"
+      },
+      {
+        "level": 3,
+        "text": "Revenue Model (10%)",
+        "anchor": "revenue-model-10"
+      },
+      {
+        "level": 3,
+        "text": "Technical Feasibility (5%)",
+        "anchor": "technical-feasibility-5"
+      },
+      {
+        "level": 3,
+        "text": "Scalability (10%)",
+        "anchor": "scalability-10"
+      },
+      {
+        "level": 2,
+        "text": "Score Interpretation",
+        "anchor": "score-interpretation"
+      },
+      {
+        "level": 3,
+        "text": "Score Ranges",
+        "anchor": "score-ranges"
+      },
+      {
+        "level": 3,
+        "text": "Overall Score",
+        "anchor": "overall-score"
+      },
+      {
+        "level": 2,
+        "text": "Validation Results",
+        "anchor": "validation-results"
+      },
+      {
+        "level": 3,
+        "text": "Score Breakdown",
+        "anchor": "score-breakdown"
+      },
+      {
+        "level": 3,
+        "text": "Additional Analysis",
+        "anchor": "additional-analysis"
+      },
+      {
+        "level": 2,
+        "text": "Using Your Scores",
+        "anchor": "using-your-scores"
+      },
+      {
+        "level": 3,
+        "text": "High Scores (8-10)",
+        "anchor": "high-scores-8-10"
+      },
+      {
+        "level": 3,
+        "text": "Medium Scores (6-7)",
+        "anchor": "medium-scores-6-7"
+      },
+      {
+        "level": 3,
+        "text": "Low Scores (0-5)",
+        "anchor": "low-scores-0-5"
+      }
+    ]
+  },
+  {
+    "title": "Plans",
+    "description": "",
+    "href": "/docs/pricing/plans",
+    "content": "Plans Free Plan $0/month Perfect for getting started and exploring Ideavo's capabilities. Features - 5 daily prompts (up to 30 prompts per month) - Error fixes are free and do not count towards your monthly prompts - Access to both Build and Validate modes - Community support - GitHub integration - One-click deployment Pro Plan $125/month Best for professional developers and growing teams. Features - 1200 monthly prompts - Priority customer support - Custom deployment options --- Choosing the Right Plan Free Plan is perfect if you: - Are new to Ideavo and want to explore - Have occasional development needs - Are learning app development - Want to test the platform before committing Starter Plan is ideal if you: - Are building 1-2 projects per month - Want customer support - Are a freelancer or indie developer Pro Plan is best if you: - Are building multiple projects - Need unlimited development capacity - Require priority support - Are part of a development team",
+    "headings": [
+      {
+        "level": 2,
+        "text": "Free Plan",
+        "anchor": "free-plan"
+      },
+      {
+        "level": 3,
+        "text": "Features",
+        "anchor": "features"
+      },
+      {
+        "level": 2,
+        "text": "Starter Plan",
+        "anchor": "starter-plan"
+      },
+      {
+        "level": 3,
+        "text": "Features",
+        "anchor": "features"
+      },
+      {
+        "level": 2,
+        "text": "Pro Plan",
+        "anchor": "pro-plan"
+      },
+      {
+        "level": 3,
+        "text": "Features",
+        "anchor": "features"
+      },
+      {
+        "level": 2,
+        "text": "Choosing the Right Plan",
+        "anchor": "choosing-the-right-plan"
+      },
+      {
+        "level": 3,
+        "text": "Free Plan is perfect if you:",
+        "anchor": "free-plan-is-perfect-if-you"
+      },
+      {
+        "level": 3,
+        "text": "Starter Plan is ideal if you:",
+        "anchor": "starter-plan-is-ideal-if-you"
+      },
+      {
+        "level": 3,
+        "text": "Pro Plan is best if you:",
+        "anchor": "pro-plan-is-best-if-you"
+      }
+    ]
+  },
+  {
+    "title": "Agent+",
+    "description": "",
+    "href": "/docs/pricing/agent-plus",
+    "content": "Agent+ $1,500/month Traditional agencies move slowly. Service-based companies lack transparency. Solo AI tools hit creative walls. Agent+ breaks the mold—a subscription service combining AI-driven efficiency with world-class talent. We're not just another agency; we're your embedded design and development team that ships production-ready features in 24-72 hours. The Agent+ Difference Most development partnerships fail because they're either too slow, too expensive, or too rigid. Agent+ solves this by merging the speed of AI with the creativity and precision that only humans can deliver. Get 1-3 features designed and shipped weekly, production ready code guaranteed. ✨ Your Vision • Design to Dev • Agile Workflow • Full Ownership How It Works !Agent+ Workflow 1. We Define Share your idea, and we'll help refine it into a clear, actionable scope. 2. Agents Design Get high-quality designs ready for review within 24-72 hours, crafted by expert designers. 3. Agents Code We open a pull request with production-ready code, delivered by expert developers. 4. Review Together Need changes? No problem. Code reviews and design revisions are included. 5. Ship Merge production-ready code to your local environment. You own 100% of the IP, design, and code—no strings attached.",
+    "headings": [
+      {
+        "level": 2,
+        "text": "The Agent+ Difference",
+        "anchor": "the-agent-difference"
+      },
+      {
+        "level": 2,
+        "text": "How It Works",
+        "anchor": "how-it-works"
+      },
+      {
+        "level": 3,
+        "text": "1. We Define",
+        "anchor": "1-we-define"
+      },
+      {
+        "level": 3,
+        "text": "2. Agents Design",
+        "anchor": "2-agents-design"
+      },
+      {
+        "level": 3,
+        "text": "3. Agents Code",
+        "anchor": "3-agents-code"
+      },
+      {
+        "level": 3,
+        "text": "4. Review Together",
+        "anchor": "4-review-together"
+      },
+      {
+        "level": 3,
+        "text": "5. Ship",
+        "anchor": "5-ship"
+      }
+    ]
+  }
+]
