@@ -1,0 +1,62 @@
+# GitHub Integration
+
+## Connect GitHub Account
+
+### Using Personal Access Token (PAT)
+
+1. Go to GitHub Settings → Developer settings → Personal access tokens
+2. Generate a new token with the following permissions:
+   - `repo` - Full control of private repositories
+   - `workflow` - Update GitHub Action workflows
+3. Copy the generated token
+4. In Ideavo, go to Settings → GitHub
+5. Paste your PAT token and click "Connect"
+
+![GitHub Connection](/images/github-connect.png)
+
+### Token Permissions Required
+
+- **repo**: Access to read and write repository contents
+- **workflow**: Ability to update GitHub Actions for deployment
+
+## Repository Selection
+
+### Choose Repository
+
+1. After connecting, you'll see a list of your repositories
+2. Select an existing repository or create a new one
+3. Choose the repository where you want to push your code
+
+![Repository Selection](/images/repo-selection.png)
+
+### Repository Options
+
+- **Existing Repository**: Push code to an existing project
+- **New Repository**: Create a new repository for your project
+- **Private vs Public**: Choose repository visibility
+
+## Automatic Code Deployment
+
+### Auto-Push Feature
+
+Once GitHub is connected and a repository is selected:
+
+- **Automatic Commits**: Code is automatically committed after each AI response
+- **Commit Messages**: Descriptive commit messages are generated automatically
+- **Branch Management**: Code is pushed to the main branch by default
+- **File Synchronization**: All project files are kept in sync
+
+### Commit Process
+
+1. AI generates or modifies code
+2. Changes are automatically staged
+3. Commit message is generated based on changes
+4. Code is pushed to your selected repository
+5. You receive confirmation of the push
+
+### Benefits
+
+- **Version Control**: Complete history of your project development
+- **Backup**: Your code is safely stored in GitHub
+- **Collaboration**: Share your repository with team members
+- **Deployment**: Enable automatic deployment from GitHub

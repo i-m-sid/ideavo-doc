@@ -10,40 +10,42 @@ export type EachRoute = {
 
 export const ROUTES: EachRoute[] = [
   {
-    title: "Getting Started",
-    href: "/getting-started",
+    title: "Overview",
+    href: "/overview",
     noLink: true,
     items: [
       { title: "Introduction", href: "/introduction" },
-      {
-        title: "Installation",
-        href: "/installation",
-      },
-      { title: "Quick Start Guide", href: "/quick-start-guide" },
-      {
-        title: "Project Structure",
-        href: "/project-structure",
-      },
-      {
-        title: "Components",
-        href: "/components",
-        items: [
-          { title: "Stepper", href: "/stepper" },
-          { title: "Tabs", href: "/tabs" },
-          { title: "Note", href: "/note" },
-          { title: "Code Block", href: "/code-block" },
-          { title: "Image & Link", href: "/image-link" },
-          { title: "File System", href: "/file-system", tag: "New" },
-          { title: "Custom", href: "/custom" },
-        ],
-      },
-      { title: "Internationalization", href: "/i18n" },
-      { title: "Algolia Search", href: "/algolia-search", tag: "New" },
-      { title: "Themes", href: "/themes" },
-      {
-        title: "Customize",
-        href: "/customize",
-      },
+      { title: "Why Ideavo", href: "/why-ideavo" },
+    ],
+  },
+  {
+    title: "Build with Ideavo",
+    href: "/build-with-ideavo",
+    noLink: true,
+    items: [
+      { title: "Get Started", href: "/get-started" },
+      { title: "AI Assistant", href: "/ai-assistant" },
+      { title: "Workbench", href: "/workbench" },
+      { title: "GitHub", href: "/github" },
+      { title: "Deployment", href: "/deployment" },
+    ],
+  },
+  {
+    title: "Validate with Ideavo",
+    href: "/validate-with-ideavo",
+    noLink: true,
+    items: [
+      { title: "Get Started", href: "/get-started" },
+      { title: "Understanding Scores", href: "/understanding-scores" },
+    ],
+  },
+  {
+    title: "Pricing",
+    href: "/pricing",
+    noLink: true,
+    items: [
+      { title: "Plans", href: "/plans" },
+      { title: "Agent+", href: "/agent-plus" },
     ],
   },
 ];

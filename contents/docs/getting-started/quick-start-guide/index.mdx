@@ -1,122 +1,139 @@
 ---
 title: Quick Start Guide
-description: This section provides an overview of Quick Start Guide.
+description: Get up and running with Ideavo in just a few minutes.
 ---
 
-Follow these simple instructions to set up your project efficiently and begin creating content without delay!:
+This guide will help you create your first project on Ideavo and explore both validation and build modes.
 
-<Note type="info">
-  All templates follow the same quick start guide, so you can apply these steps universally.
+## Step 1: Create Your Account
+
+1. Visit [ideavo.com](https://ideavo.com) and click **Sign Up**
+2. Complete the registration form with your email and password
+3. Verify your email address if prompted
+4. You'll be redirected to the main dashboard
+
+<Note title="Free Trial">
+New users get free credits to explore the platform. No credit card required to get started!
 </Note>
 
-## Documentation
+## Step 2: Submit Your First Idea
 
-1. **Configure Routing**
+1. On the homepage, you'll see a large text area with the prompt "Describe your app idea..."
+2. Enter your app concept in natural language. For example:
+   ```
+   A mobile app that helps users track their daily water intake 
+   with reminders and progress visualization
+   ```
+3. As you type, you'll see mode options appear:
+   - **Build Mode** (default): Creates a production-ready application
+   - **Validate Mode**: Performs market analysis and validation
 
-   - Open the `@lib/route-config.ts` file and add your routing pages:
+## Step 3: Choose Your Mode
 
-   
-     ```typescript:route-config.ts
-     export const ROUTES: EachRoute[] = [
-       // Add new route below
-       {
-         title: "Fundamentals",
-         href: "/fundamentals",
-         noLink: true, // Set to true to prevent routing
-         items: [
-           // All the sub-sections under `fundamentals`
-           { title: "HTTP Server", href: "/http-server" },
-         ],
-       },
-     ];
-     ```
+### For Market Research (Validation Mode)
+- Toggle to **Validate Mode** if you want to:
+  - Analyze market viability
+  - Research competitors
+  - Assess risks and challenges
+  - Get feature recommendations
 
-2. **Create Content Structure**
+### For Building (Build Mode)
+- Keep **Build Mode** selected if you want to:
+  - Generate actual code
+  - Create a working prototype
+  - Deploy to production
+  - Access the full development environment
 
-   - Navigate to the `@content/docs` directory and create a folder named `fundamentals`, as defined in the `route-config` file. Within this folder, create a subfolder named `http-server`, and inside that, create an `index.mdx` file that will render when you navigate to `/fundamentals/http-server`:
+## Step 4: Submit and Wait
 
-<Files
-  items={[
-    {
-      type: "folder",
-      name: "content",
-      isOpen: true,
-      children: [
-        {
-          type: "folder",
-          name: "docs",
-          isOpen: true,
-          children: [
-            {
-              type: "folder",
-              name: "fundamentals",
-              isOpen: true,
-              children: [
-                {
-                  type: "folder",
-                  name: "http-server",
-                  isOpen: true,
-                  children: [{ type: "file", name: "index.mdx" }],
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    },
-  ]}
-/>
+1. Click **Submit** to start the AI analysis
+2. You'll see a progress indicator with different steps
+3. Processing typically takes 1-3 minutes depending on complexity
+4. You'll be redirected to your project page when complete
 
+## Step 5: Explore Your Results
 
-3. **Write Your Markdown Content**
-   - Start writing your markdown content inside the `index.mdx` file.
+### If You Chose Validation Mode
 
-<Note type="warning">
-  Be sure to include frontmatter at the beginning of the file, which is used for
-  the page title and description:
-</Note>
+You'll land on a comprehensive validation dashboard with 5 main sections:
 
-     ```markdown:index.mdx showLineNumbers {1-4}
-     ---
-     title: HTTP Server
-     description: This section is about HTTP Server.
-     ---
+1. **Overview**: Overall validation score and summary
+2. **Validation Scores**: Detailed breakdown of metrics
+3. **Features**: Core feature analysis and prioritization
+4. **Challenges & Risks**: Potential obstacles and mitigation strategies
+5. **Competition**: Competitive analysis and market positioning
 
-     <!-- Here goes your markdown content -->
-     ```
+### If You Chose Build Mode
 
-4. **Run Your Application**
-   - Ensure your application is running. Navigate to `http://localhost:3000/docs/fundamentals/http-server` to view your content. You should also see it in the left panel, allowing you to navigate to other pages.
+You'll enter the full development environment with:
 
-## Blogs
+1. **Chat Interface**: Communicate with the AI assistant
+2. **File Explorer**: Navigate your project structure
+3. **Code Editor**: Edit files with syntax highlighting
+4. **Terminal**: Run commands and manage packages
+5. **Live Preview**: See your application in real-time
 
-To get started with blogs, follow these steps:
+## Step 6: Iterate and Improve
 
-- Navigate to the `@content/blogs` directory and create a file with a unique name prefixed with `.mdx`, then start writing the markdown content inside.
+### From Validation Mode
+- Review the analysis and insights
+- Click **Start Building** to switch to Build Mode
+- Use the validation insights to guide your development
 
-<Note type="warning">
-  Make sure to add the following frontmatter to format data for the blogs
-  properly
-</Note>
+### From Build Mode
+- Chat with the AI to add features or fix issues
+- Use natural language to describe what you want
+- Examples:
+  - "Add a user authentication system"
+  - "Create a responsive navbar"
+  - "Add a database to store user data"
 
-```markdown:blog-name.mdx
----
-title: "Building a Recursive File System with React: A Deep Dive"
-description: "Explore how to create a recursive file system in React. This blog post provides a comprehensive guide on building a file system where folders and files can be nested, added, renamed, and deleted."
-date: 02-09-2024
-authors:
-  - avatar: "https://ui.shadcn.com/avatars/02.png"
-    handle: nisabmohd
-    username: Nisab Mohd
-    handleUrl: "https://github.com/nisabmohd"
-cover: "https://img.freepik.com/premium-vector/many-monsters-various-colors-doodle-come-bless-birthday-happy_577083-84.jpg?w=826"
----
+## Step 7: Deploy Your App (Build Mode Only)
 
-<!-- Your blog markdown content -->
-```
+1. When you're ready to deploy, look for deployment options in the interface
+2. Choose your preferred platform:
+   - **Vercel**: Great for frontend applications
+   - **Netlify**: Alternative hosting with continuous deployment
+3. Connect your GitHub account if prompted
+4. Follow the deployment wizard
+5. Get your live URL to share with others
 
-- Navigate to your local development server at `http://localhost:3000/blog`, where you will see your blog listed and sorted based on date. You can navigate to any blog to read it.
+## Next Steps
 
-## Explore Further
+Congratulations! You've created your first Ideavo project. Here's what to explore next:
 
-This section serves as your starting point for exploring the application. By following the steps above, you can quickly and easily set up your content. For more customization and control, please refer to the following pages.
+- **Dashboard**: Manage multiple projects from your dashboard
+- **GitHub Integration**: Connect your repositories for version control
+- **Billing**: Monitor your credit usage and upgrade if needed
+- **Advanced Features**: Explore AI assistance, custom deployments, and more
+
+## Common First-Time Questions
+
+<details>
+<summary>How many projects can I create?</summary>
+There's no limit on the number of projects. You pay based on credits consumed for AI processing and build time.
+</details>
+
+<details>
+<summary>Can I switch between Validation and Build modes?</summary>
+Yes! You can start with validation and then switch to build mode, or vice versa. Each mode provides different insights and capabilities.
+</details>
+
+<details>
+<summary>What happens to my code if I run out of credits?</summary>
+Your code remains accessible in read-only mode. You can still view your projects and download code, but AI assistance and building features require credits.
+</details>
+
+<details>
+<summary>Can I use my own GitHub repository?</summary>
+Yes! You can connect existing GitHub repositories or create new ones directly from the platform.
+</details>
+
+## Need Help?
+
+If you run into any issues:
+- Check our [troubleshooting guide](/help/troubleshooting)
+- Contact support through the chat widget
+- Join our [community Discord](https://discord.gg/ideavo)
+
+Ready to dive deeper? Explore our detailed guides for [Validation Mode](/validation/getting-started) or [Build Mode](/build/getting-started).
