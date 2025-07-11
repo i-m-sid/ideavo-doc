@@ -26,8 +26,6 @@ export const ROUTES: EachRoute[] = [
       { title: "Get Started", href: "/get-started" },
       { title: "AI Assistant", href: "/ai-assistant" },
       { title: "Workbench", href: "/workbench" },
-      { title: "GitHub", href: "/github" },
-      { title: "Deployment", href: "/deployment" },
     ],
   },
   {
