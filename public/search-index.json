@@ -16,7 +16,7 @@
     "title": "Why Ideavo",
     "description": "",
     "href": "/docs/overview/why-ideavo",
-    "content": "Why Ideavo? Comparison with Competitors | Feature | Ideavo | Lovable.dev | Bolt.new | |---------|---------|-------------|----------| | Performance | WebContainer-powered, production-ready code | In-browser development | StackBlitz WebContainers | | Pricing | $25/month (200 prompts) | ~$20/month (limited) | $20/month (10M tokens) | | Platform Support | Next.js, React Native Expo | React, Tailwind, Vite | React, Vue, Svelte, Next.js | | Agentic Capabilities | Multi-agent system with specialized agents | Single AI model | Single AI model | Key Differentiators Dual-Mode Intelligence Unlike competitors, Ideavo combines idea validation with application building in a single platform. Production-Ready Focus Generates deployable applications with clean, maintainable code following industry best practices. Advanced Agentic System Uses specialized AI agents for validation, architecture, code generation, testing, and deployment. Human-AI Collaboration Agent+ plan provides human engineer review and quality assurance alongside AI development.",
+    "content": "Why Ideavo? Comparison with Competitors | Feature | Ideavo | Lovable.dev | Bolt.new | | ------------------------ | ------------------------------------ | ---------------------------------- | ----------------------- | | Stack | Full stack | Frontend with BaaS | Frontend with BaaS | | Target | Production-ready code | MVP/Prototype | MVP/Prototype | | Hallucination | Low | High | High | | Popular Pricing | $35/month (unlimited credits) | ~$25/month (limited) | $20/month (10M tokens) | | Platform limits | No limit (runs completely on server) | Limited to browser based execution | Limited by WebContainer | | Agentic Capabilities | Default Agent Mode (takes 1 credit) | High Credit Usage | Limited Support | Key Differentiators Dual-Mode Intelligence Unlike competitors, Ideavo combines idea validation with application building in a single platform. Production-Ready Focus Generates deployable applications with clean, maintainable code following industry best practices. Advanced Agentic System Uses specialized AI agents for validation, architecture, code generation, testing, and deployment. Human-AI Collaboration Agent+ plan provides human engineer review and quality assurance alongside AI development.",
     "headings": [
       {
         "level": 2,
@@ -102,35 +102,15 @@
     "title": "AI Assistant",
     "description": "",
     "href": "/docs/build-with-ideavo/ai-assistant",
-    "content": "AI Assistant Two Modes Plan Mode - Analyzes your requirements and creates a development plan - Breaks down complex features into manageable tasks - Provides project structure and technical recommendations - Does not execute code or make changes Agent Mode - Actively builds your application - Writes code, creates files, and implements features - Executes commands and manages the development environment - Provides real-time progress updates Conversation Features Rewind to Previous Message You can rewind the conversation to any previous message: 1. Click on any message in the chat history 2. Select \"Rewind to here\" from the context menu 3. The conversation will reset to that point 4. Continue development from that state This feature is useful when: - You want to explore different implementation approaches - The AI made a mistake and you want to start from a previous working state - You need to change direction in your project Context Awareness The AI assistant maintains context throughout your conversation: - Remembers your project requirements and preferences - Tracks changes made to your codebase - Understands the current state of your application - Provides consistent responses based on your project history Best Practices Communicating with the AI - Be specific about what you want to build or change - Ask for explanations when you don't understand something - Request code reviews and optimization suggestions - Use the rewind feature to explore alternatives Getting Better Results - Start with Plan mode for complex features - Switch to Agent mode when ready to implement - Provide feedback on generated code - Ask for tests and documentation when needed",
+    "content": "AI Assistant Agent Mode - Builds features autonomously across multiple files - Writes code, creates files, and manages project structure - Executes terminal commands and updates dependencies - Tracks progress with real-time status updates - Plans multi-step tasks and adapts to codebase context Context Awareness The AI assistant maintains context throughout your conversation: - Remembers your project requirements and preferences - Tracks changes made to your codebase - Understands the current state of your application - Provides consistent responses based on your project history Best Practices Communicating with the AI - Be specific about what you want to build or change or just discuss/plan - Ask for explanations when you don't understand something - Request code reviews and optimization suggestions - Use the rewind feature to explore alternatives",
     "headings": [
       {
         "level": 2,
-        "text": "Two Modes",
-        "anchor": "two-modes"
-      },
-      {
-        "level": 3,
-        "text": "Plan Mode",
-        "anchor": "plan-mode"
-      },
-      {
-        "level": 3,
         "text": "Agent Mode",
         "anchor": "agent-mode"
       },
       {
         "level": 2,
-        "text": "Conversation Features",
-        "anchor": "conversation-features"
-      },
-      {
-        "level": 3,
-        "text": "Rewind to Previous Message",
-        "anchor": "rewind-to-previous-message"
-      },
-      {
-        "level": 3,
         "text": "Context Awareness",
         "anchor": "context-awareness"
       },
@@ -143,11 +123,6 @@
         "level": 3,
         "text": "Communicating with the AI",
         "anchor": "communicating-with-the-ai"
-      },
-      {
-        "level": 3,
-        "text": "Getting Better Results",
-        "anchor": "getting-better-results"
       }
     ]
   },
@@ -155,153 +130,17 @@
     "title": "Workbench",
     "description": "",
     "href": "/docs/build-with-ideavo/workbench",
-    "content": "Workbench The Ideavo Workbench is your complete development environment in the browser. !Workbench File Tree - Browse and navigate your project structure - Create, rename, and delete files and folders - View file modifications in real-time - Expand and collapse directories Code Editor - Full-featured code editor with syntax highlighting - IntelliSense and auto-completion - Real-time error detection and suggestions - Support for Next.js and React Native Expo projects Editor Features - Syntax Highlighting: For JavaScript, TypeScript, CSS, and more - Code Folding: Collapse code blocks for better navigation - Find & Replace: Search and replace text across files - Multi-cursor Editing: Edit multiple lines simultaneously Preview - Live preview of your application - Automatic refresh when code changes - Mobile-responsive preview for different screen sizes Preview Features - Hot Reload: See changes instantly without manual refresh - Device Simulation: Test different screen sizes and orientations - Console Access: View browser console logs and errors Terminal - Built-in terminal for running commands - Package management (npm, yarn, pnpm) - Build and development scripts - Environment variable management Terminal Commands - npm install - Install dependencies - npm run dev - Start development server - npm run build - Build for production - npm run test - Run tests File Editing Restrictions Important: You can only edit files when your GitHub account is connected. Without GitHub Connection - Read-only mode: View files and folder structure - No file editing: Cannot modify, create, or delete files - Preview only: Can view the live preview of your application With GitHub Connection - Full editing capabilities: Create, modify, and delete files - Real-time sync: Changes are automatically saved - Version control: All changes are tracked in git - Collaboration: Share your repository with team members",
+    "content": "Workbench The Ideavo Workbench is your complete development environment in the browser. Preview - Live preview of your application - Automatic refresh when code changes - Manual reload button if needed - Download full code using download button - Shareable preview link !Preview Env Editor - Shows the current environment variable configuration of application - Add your API keys for third party integration here - Saving the env file invokes reload of app preview !Env Editor",
     "headings": [
-      {
-        "level": 2,
-        "text": "File Tree",
-        "anchor": "file-tree"
-      },
-      {
-        "level": 2,
-        "text": "Code Editor",
-        "anchor": "code-editor"
-      },
-      {
-        "level": 3,
-        "text": "Editor Features",
-        "anchor": "editor-features"
-      },
       {
         "level": 2,
         "text": "Preview",
         "anchor": "preview"
       },
       {
-        "level": 3,
-        "text": "Preview Features",
-        "anchor": "preview-features"
-      },
-      {
         "level": 2,
-        "text": "Terminal",
-        "anchor": "terminal"
-      },
-      {
-        "level": 3,
-        "text": "Terminal Commands",
-        "anchor": "terminal-commands"
-      },
-      {
-        "level": 2,
-        "text": "File Editing Restrictions",
-        "anchor": "file-editing-restrictions"
-      },
-      {
-        "level": 3,
-        "text": "Without GitHub Connection",
-        "anchor": "without-github-connection"
-      },
-      {
-        "level": 3,
-        "text": "With GitHub Connection",
-        "anchor": "with-github-connection"
-      }
-    ]
-  },
-  {
-    "title": "GitHub",
-    "description": "",
-    "href": "/docs/build-with-ideavo/github",
-    "content": "GitHub Integration Connect GitHub Account Using Personal Access Token (PAT) 1. Go to GitHub Settings → Developer settings → Personal access tokens 2. Generate a new token with the following permissions: - repo - Full control of private repositories - workflow - Update GitHub Action workflows 3. Copy the generated token 4. In Ideavo, go to Settings → GitHub 5. Paste your PAT token and click \"Connect\" !GitHub Connection Token Permissions Required - repo: Access to read and write repository contents - workflow: Ability to update GitHub Actions for deployment Repository Selection Choose Repository 1. After connecting, you'll see a list of your repositories 2. Select an existing repository or create a new one 3. Choose the repository where you want to push your code !Repository Selection Repository Options - Existing Repository: Push code to an existing project - New Repository: Create a new repository for your project - Private vs Public: Choose repository visibility Automatic Code Deployment Auto-Push Feature Once GitHub is connected and a repository is selected: - Automatic Commits: Code is automatically committed after each AI response - Commit Messages: Descriptive commit messages are generated automatically - Branch Management: Code is pushed to the main branch by default - File Synchronization: All project files are kept in sync Commit Process 1. AI generates or modifies code 2. Changes are automatically staged 3. Commit message is generated based on changes 4. Code is pushed to your selected repository 5. You receive confirmation of the push Benefits - Version Control: Complete history of your project development - Backup: Your code is safely stored in GitHub - Collaboration: Share your repository with team members - Deployment: Enable automatic deployment from GitHub",
-    "headings": [
-      {
-        "level": 2,
-        "text": "Connect GitHub Account",
-        "anchor": "connect-github-account"
-      },
-      {
-        "level": 3,
-        "text": "Using Personal Access Token (PAT)",
-        "anchor": "using-personal-access-token-pat"
-      },
-      {
-        "level": 3,
-        "text": "Token Permissions Required",
-        "anchor": "token-permissions-required"
-      },
-      {
-        "level": 2,
-        "text": "Repository Selection",
-        "anchor": "repository-selection"
-      },
-      {
-        "level": 3,
-        "text": "Choose Repository",
-        "anchor": "choose-repository"
-      },
-      {
-        "level": 3,
-        "text": "Repository Options",
-        "anchor": "repository-options"
-      },
-      {
-        "level": 2,
-        "text": "Automatic Code Deployment",
-        "anchor": "automatic-code-deployment"
-      },
-      {
-        "level": 3,
-        "text": "Auto-Push Feature",
-        "anchor": "auto-push-feature"
-      },
-      {
-        "level": 3,
-        "text": "Commit Process",
-        "anchor": "commit-process"
-      },
-      {
-        "level": 3,
-        "text": "Benefits",
-        "anchor": "benefits"
-      }
-    ]
-  },
-  {
-    "title": "Deployment",
-    "description": "",
-    "href": "/docs/build-with-ideavo/deployment",
-    "content": "Deployment One-Click Deployment Ideavo handles all deployment complexity for you. Simply click \"Deploy\" and your application goes live. Deployment Process Automatic Deployment 1. Build Process: Ideavo automatically builds your application 2. Optimization: Code is optimized for production 3. Platform Selection: Deployment platform is chosen automatically 4. Live URL: You receive a live URL for your application Redeployment Update Your Deployment When you make changes to your application: 1. Click \"Redeploy\" in the deployment section 2. Ideavo will rebuild your application with the latest changes 3. Your live URL will be updated automatically 4. No downtime during the update process Automatic Updates - GitHub Integration: Deployments can be triggered automatically when code is pushed - Continuous Deployment: Set up automatic redeployment on code changes - Rollback Support: Easily rollback to previous versions if needed",
-    "headings": [
-      {
-        "level": 2,
-        "text": "One-Click Deployment",
-        "anchor": "one-click-deployment"
-      },
-      {
-        "level": 2,
-        "text": "Deployment Process",
-        "anchor": "deployment-process"
-      },
-      {
-        "level": 3,
-        "text": "Automatic Deployment",
-        "anchor": "automatic-deployment"
-      },
-      {
-        "level": 2,
-        "text": "Redeployment",
-        "anchor": "redeployment"
-      },
-      {
-        "level": 3,
-        "text": "Update Your Deployment",
-        "anchor": "update-your-deployment"
-      },
-      {
-        "level": 3,
-        "text": "Automatic Updates",
-        "anchor": "automatic-updates"
+        "text": "Env Editor",
+        "anchor": "env-editor"
       }
     ]
   },
@@ -450,22 +289,12 @@
     "title": "Plans",
     "description": "",
     "href": "/docs/pricing/plans",
-    "content": "Plans Free Plan $0/month Perfect for getting started and exploring Ideavo's capabilities. Features - 5 daily prompts (up to 30 prompts per month) - Error fixes are free and do not count towards your monthly prompts - Access to both Build and Validate modes - Community support - GitHub integration - One-click deployment Pro Plan $125/month Best for professional developers and growing teams. Features - 1200 monthly prompts - Priority customer support - Custom deployment options --- Choosing the Right Plan Free Plan is perfect if you: - Are new to Ideavo and want to explore - Have occasional development needs - Are learning app development - Want to test the platform before committing Starter Plan is ideal if you: - Are building 1-2 projects per month - Want customer support - Are a freelancer or indie developer Pro Plan is best if you: - Are building multiple projects - Need unlimited development capacity - Require priority support - Are part of a development team",
+    "content": "Plans - Ideavo uses credit system to track usage - 1 credit = 1 user prompt (both build and validation mode) !Plans Free Plan $0/month Perfect for getting started and exploring Ideavo's capabilities. Features - 5 daily credits (up to 30 credits per month) - Access to both Build and Validate modes - Community support - Private projects Choosing the Right Plan Free Plan is perfect if you: - Are new to Ideavo and want to explore - Have occasional development needs - Are learning app development - Want to test the platform before committing Pro Plan is best if you: - Are building multiple projects - Need unlimited development capacity - Require priority support - Are part of a development team",
     "headings": [
       {
         "level": 2,
         "text": "Free Plan",
         "anchor": "free-plan"
-      },
-      {
-        "level": 3,
-        "text": "Features",
-        "anchor": "features"
-      },
-      {
-        "level": 2,
-        "text": "Starter Plan",
-        "anchor": "starter-plan"
       },
       {
         "level": 3,
@@ -494,11 +323,6 @@
       },
       {
         "level": 3,
-        "text": "Starter Plan is ideal if you:",
-        "anchor": "starter-plan-is-ideal-if-you"
-      },
-      {
-        "level": 3,
         "text": "Pro Plan is best if you:",
         "anchor": "pro-plan-is-best-if-you"
       }
@@ -508,7 +332,7 @@
     "title": "Agent+",
     "description": "",
     "href": "/docs/pricing/agent-plus",
-    "content": "Agent+ $1,500/month Traditional agencies move slowly. Service-based companies lack transparency. Solo AI tools hit creative walls. Agent+ breaks the mold—a subscription service combining AI-driven efficiency with world-class talent. We're not just another agency; we're your embedded design and development team that ships production-ready features in 24-72 hours. The Agent+ Difference Most development partnerships fail because they're either too slow, too expensive, or too rigid. Agent+ solves this by merging the speed of AI with the creativity and precision that only humans can deliver. Get 1-3 features designed and shipped weekly, production ready code guaranteed. ✨ Your Vision • Design to Dev • Agile Workflow • Full Ownership How It Works !Agent+ Workflow 1. We Define Share your idea, and we'll help refine it into a clear, actionable scope. 2. Agents Design Get high-quality designs ready for review within 24-72 hours, crafted by expert designers. 3. Agents Code We open a pull request with production-ready code, delivered by expert developers. 4. Review Together Need changes? No problem. Code reviews and design revisions are included. 5. Ship Merge production-ready code to your local environment. You own 100% of the IP, design, and code—no strings attached.",
+    "content": "Agent+ $2000/month Traditional agencies move slowly. Service-based companies lack transparency. Solo AI tools hit creative walls. Agent+ breaks the mold—a subscription service combining AI-driven efficiency with world-class talent. We're not just another agency; we're your embedded design and development team that ships production-ready features in 24-72 hours. The Agent+ Difference Most development partnerships fail because they're either too slow, too expensive, or too rigid. Agent+ solves this by merging the speed of AI with the creativity and precision that only humans can deliver. Get 1-3 features designed and shipped weekly, production ready code guaranteed. ✨ Your Vision • Design to Dev • Agile Workflow • Full Ownership How It Works !Agent+ Workflow 1. We Define Share your idea, and we'll help refine it into a clear, actionable scope. 2. Agents Design Get high-quality designs ready for review within 24-72 hours, crafted by expert designers. 3. Agents Code We open a pull request with production-ready code, delivered by expert developers. 4. Review Together Need changes? No problem. Code reviews and design revisions are included. 5. Ship Merge production-ready code to your local environment. You own 100% of the IP, design, and code—no strings attached.",
     "headings": [
       {
         "level": 2,
